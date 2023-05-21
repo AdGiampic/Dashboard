@@ -1,6 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .main {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
+    gap: 10px ;
 }
 
 .Container {
@@ -9,4 +15,18 @@
 
 li {
     list-style: none;
+}
+
+.sidebar {
+    background-color: deepskyblue;
+    grid-row: 1 / 3;
+}
+
+.nav {
+    display: flex;
+}
+
+.Container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }

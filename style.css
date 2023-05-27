@@ -73,10 +73,16 @@ input {
 .buttons-nav {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 button {
-    width: 50px;
+    width: 120px;
+    color: white;
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 35px;
 }
 
 .Container {

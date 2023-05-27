@@ -54,7 +54,14 @@ li {
 
 input {
     width: 50vw;
-    height: 25px;
+    height: 35px;
+    border:1px solid #E5E7EB;
+    background-color:lightgray;
+    border-radius: 25px;
+}
+
+.profile-top {
+    margin-right: 75px;
 }
 
 .nav-bottom {

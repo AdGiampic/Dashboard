@@ -7,6 +7,8 @@
 .main {
     display: grid;
     grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
+    height: 100vh;
 }
 
 .Container {
@@ -23,6 +25,7 @@ li {
     color: white;
     font-size: 24px;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .sidebar {
@@ -41,9 +44,8 @@ li {
 .nav {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 85px 85px;
     gap: 15px;
-    margin-top: 25px;
 }
 
 .nav-top {
@@ -93,7 +95,6 @@ input {
     grid-column: 1 / 2;
     align-items: center;
     margin-left: 45px;
-    margin-bottom: 15px;
 }
 
 .buttons-nav {
@@ -122,22 +123,33 @@ button {
 .Container {
     display: grid;
     grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 6fr 6fr;
     gap: 10px;
     background-color: #E5E7EB;
     padding-left: 45px;
     padding-top: 40px;
 }
 
+#Container-title{
+    font-size: 25px;
+    height: 30px;
+}
+
 .Projects {
     display: grid;
     gap: 15px;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
     grid-column: 1 / 3;
 }
 
 .Project {
     display: grid;
-    /*grid-template-columns: repeat(auto-fit, minmax(250px,1fr));*/
+    border: 1px solid black;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
 }
 
 .Trending {

@@ -57,6 +57,7 @@ li {
 .Search-bar {
     display: flex;
     font-size: 35px;
+    
 }
 
 input {
@@ -80,9 +81,16 @@ input {
     border-radius: 50%;
 }
 
+#bigger-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
 .nav-bottom {
     display: flex;
     grid-column: 1 / 2;
+    align-items: center;
 }
 
 .buttons-nav {
@@ -103,7 +111,7 @@ button {
     border-radius: 35px;
 }
 
-#bigger {
+#bigger-name {
     font-size: 30px;
     font-weight: bold;
 }

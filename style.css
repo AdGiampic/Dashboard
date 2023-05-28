@@ -122,18 +122,25 @@ button {
 
 .Container {
     display: grid;
-    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 6fr 6fr;
-    gap: 10px;
+    gap: 45px;
     background-color: #E5E7EB;
     padding-left: 45px;
     padding-top: 40px;
 }
 
-#Container-title{
+.Title{
     font-size: 25px;
     height: 30px;
 }
+
+.Title2 {
+    font-size: 25px;
+    height: 30px;
+    grid-column: 3 / 4;
+}
+
 
 .Projects {
     display: grid;
@@ -144,7 +151,13 @@ button {
 
 .Project {
     display: grid;
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 15px solid #fde047;
+    border-right: 15px solid #fde047;
+    padding: 25px;
+    background-color: white;
+    border-radius: 25px;
 }
 
 .icons {
@@ -152,6 +165,30 @@ button {
     justify-content: space-around;
 }
 
+.News {
+    margin-right: 50px;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(3, 1fr);
+    width: 450px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.bit {
+    border-bottom: 1px solid black;
+}
+
+.P-title {
+    font-size: 2em;
+}
+
+.b-title{
+    font-size: 1.5em;
+}
+
 .Trending {
     grid-column: 3 / 4;
+    
 }
